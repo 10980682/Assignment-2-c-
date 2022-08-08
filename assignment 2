@@ -2,6 +2,8 @@
 
 using namespace std;
 
+// finding the average of the prime numbers
+
 int main()
 {
     int myArr[]={1,2,3,5,7,11,13,17,19,21};

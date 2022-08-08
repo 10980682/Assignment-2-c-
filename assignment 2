@@ -1,0 +1,27 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int myArr[]={1,2,3,5,7,11,13,17,19,21};
+    int sum=0;
+    int num=10;
+    float average=sum/num;
+
+
+
+    for(int x=0;x<10;x++){
+        sum+=myArr[x];
+    }
+    average=sum/num;
+
+    cout<<"the sum is "<<sum<<endl;
+    cout<<"the average is "<<average<<endl;
+
+
+
+
+    return 0;
+return 0;
+}
